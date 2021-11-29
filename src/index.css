@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +9,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+header{
+  background-color: rgb(221, 49, 18);
+  width: 100vw;
+  color: black;
+  text-decoration:overline;
+  box-shadow: -1px 10px 5px 0px rgba(0, 0, 0, 0.95);
+-webkit-box-shadow: -1px 10px 5px 0px rgba(0, 0, 0, 0.95);
+-moz-box-shadow: -1px 10px 5px 0px rgba(0, 0, 0, 0.95);
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+}
+.trash{
+  width: 40px;
+  margin-bottom: 4px;
+}
+
+.status{
+  border: 2px solid green;
+  border-radius: 99px;
+}
+
+.form-add{
+  border: 1px solid green;
+
+}
+input{
+  border: 1px solid green;
+}
+
+input:focus{
+  border: 1px solid rgb(221, 49, 18);
+}
+
+/* UTILITIES */
+.black{
+  color: black;
+}
+
+
