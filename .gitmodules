@@ -1,0 +1,3 @@
+[submodule "Socket.io-Server"]
+	path = Socket.io-Server
+	url = https://github.com/JILSE7/Socket.io-Server
